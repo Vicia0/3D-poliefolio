@@ -31,7 +31,13 @@ const Contact = () => {
     e.preventDefault();
     setLoading(true);
 
-    // TODO: handle submit event when submitting form without email address
+    if (!form.email) {
+      alert("Please enter a valid email address.");
+      setLoading(false);
+      return;
+    }
+
+    console.log("Sending email with the following details:", form);
 
     emailjs
       .send(
@@ -47,7 +53,8 @@ const Contact = () => {
         import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
       )
       .then(
-        () => {
+        (response) => {
+          console.log("Email sent successfully:", response.status, response.text);
           setLoading(false);
           alert("Thank you. I will get back to you as soon as possible.");
 
@@ -58,18 +65,15 @@ const Contact = () => {
           });
         },
         (error) => {
+          console.error("Failed to send email:", error);
           setLoading(false);
-          console.error(error);
-
           alert("Ahh, something went wrong. Please try again.");
         }
       );
   };
 
   return (
-    <div
-      className={`xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden`}
-    >
+    <div className={`xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden`}>
       <motion.div
         variants={slideIn("left", "tween", 0.2, 1)}
         className='flex-[0.75] bg-black-100 p-8 rounded-2xl'

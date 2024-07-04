@@ -365,7 +365,7 @@ const projects = [
   {
     name: "Eco Swap",
     description:
-      "The ECO-SWAP project addresses the pressing issue of electronic waste (e-waste) resulting from the rapid proliferation of electronic devices in Rwanda, posing significant environmental and health risks. ECO-SWAP aims to bridge the gap between technological advancement and responsible e-waste management. Targeting e-waste owners, buyers interested in repurposing electronics, and stakeholders in e-waste management, this platform facilitates the exchange of electronic waste items.",
+      "The ECO-SWAP project addresses the pressing issue of electronic waste (e-waste) resulting from the rapid proliferation of electronic devices in Rwanda, posing significant environmental and health risks. ECO-SWAP aims to bridge the gap between technological advancement and responsible e-waste management.",
     tags: [
       {
         name: "javascrcipt",
@@ -383,6 +383,28 @@ const projects = [
     image: metrics,
     source_code_link: "https://github.com/Vicia0/Codextreme_E-Swap",
     live_link: "https://codextreme-e-swap-h7k5.vercel.app/"
+  },
+  {
+    name: "E3 International Ltd",
+    description:
+      "E3 International Ltd is a Kigali-based registered establishment for the MICE (Meetings, Incentives, Conferences, and Exhibitions) sector with a commitment to bringing in international Conferences and Exhibitions into Kigali, Rwanda under the guidance and leadership of veterans of the MICE industry.",
+    tags: [
+      {
+        name: "Wordpress",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "css",
+        color: "green-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: memory,
+    source_code_link: "https://github.com/e3-lt/amec-admin",
+    live_link: "http://www.e3ltd.com/"
   },
   {
     name: "Strong Sister",
