@@ -409,7 +409,7 @@ const projects = [
   {
     name: "Strong Sister",
     description:
-      "StrongSister is dedicated to empowering Burundian women and girls by providing tools and resources to combat gender-based violence, ensuring their safety, and promoting a culture of support and resilience throughout the community.Recognizing the urgent need to combat gender-based violence in Burundi, StrongSister provides essential and accessible services to empower and protect women and girls. Our app offers emergency calling, incident reporting and recording, safe contacts, and comprehensive resources to ensure their safety and well-being.",
+      "StrongSister is dedicated to empowering Burundian women and girls by providing tools and resources to combat gender-based violence, ensuring their safety, and promoting a culture of support and resilience throughout the community.Recognizing the urgent need to combat gender-based violence in Burundi, StrongSister provides essential and accessible services to empower and protect women and girls.",
     tags: [
       {
         name: "Javascript",
