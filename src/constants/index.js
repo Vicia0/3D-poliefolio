@@ -218,6 +218,10 @@ const technologies = [
     icon: tailwind,
   },
   {
+    name: "Wordpress",
+    icon: wordpress,
+  },
+  {
     name: "git",
     icon: git,
   },
