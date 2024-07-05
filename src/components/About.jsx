@@ -48,8 +48,8 @@ const About = () => {
       >
         I'm a skilled software engineer with experience in Python, JavaScript, Java,
         and expertise in frameworks like React, Django, Node.js and Next.js. I take pride in writing 
-        <span className='text-red-500'> clean and maintainable code</span>, 
-        as well as building <span className='text-red-500'>responsive and user-friendly</span> web applications.
+        <span className='text-purple-500'> clean and maintainable code</span>, 
+        as well as building <span className='text-purple-00'>responsive and user-friendly</span> web applications.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
