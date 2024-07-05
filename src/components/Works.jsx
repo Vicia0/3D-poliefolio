@@ -167,7 +167,7 @@ const Works = () => {
         {width < 768 ? (
           <p className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'>
             The following projects showcases my skills and experience through
-            <span className="text-red-500"> open to public view </span>examples of my work. {' '}
+            <span className="text-purple-500"> open to public view </span>examples of my work. {' '}
             Each project is briefly described with a
             link to the respective code repository and live demo. This reflects my
             ability to solve complex problems, work with different technologies,
@@ -179,7 +179,7 @@ const Works = () => {
             className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
           >
             The following projects showcases my skills and experience through
-            <span className="text-red-500"> open to public view </span>examples of my work. {' '}
+            <span className="text-purple-500"> open to public view </span>examples of my work. {' '}
             Each project is briefly described with a
             link to the respective code repository and live demo. This reflects my
             ability to solve complex problems, work with different technologies,

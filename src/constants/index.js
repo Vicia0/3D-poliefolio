@@ -104,11 +104,11 @@ const skills = [
   },
   {
     id: 4,
-    title: "Database Management",
+    title: "Database & APIs Management",
     skills: [
       {
         color: "green-text-gradient",
-        skills: ["MySQL", "PostgreSQL", "MongoDB", "Oracle"]
+        skills: ["MySQL", "PostgreSQL", "MongoDB", "Oracle","Apidog", "Postman"]
       }
     ]
   },
@@ -138,7 +138,7 @@ const skills = [
     skills: [
       {
         color: "pink-text-gradient",
-        skills: ["VSCode", "Visual Studio", "Github", "Slack", "Discord", "Trello", "Figma","Sublime"]
+        skills: ["VSCode", "Visual Studio", "Github","GitLab", "Slack", "Discord", "Trello", "Figma","Sublime"]
       }
     ]
   },
