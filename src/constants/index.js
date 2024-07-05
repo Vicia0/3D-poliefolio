@@ -280,17 +280,17 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "Polie is a very responsive and timely person with a positive attitude towards her work. She is a great developer to work with as she discusses things openly. I recommend her.",
-    name: "Memory Usaman",
+      " Polie is exactly the sort of software developer any company would love. She views writing clean, accessible code as a calling, and she's great at identifying areas where we can improve UI. I can recommend her without reservation",
+    name: "Memory Usaman ",
     designation: "Conference Manager",
     company: "E3 International ltd",
     image: "https://res.cloudinary.com/polievicia123/image/upload/v1720037369/memory_ltrm1k.jpg",
   },
   {
     testimonial:
-      " Polie is exactly the sort of software developer any company would love. She views writing clean, accessible code as a calling, and she's great at identifying areas where we can improve UI. I can recommend her without reservation",
+      "Polie is a very responsive and timely person with a positive attitude towards her work. She is a great developer to work with as she discusses things openly. I recommend her.",
     name: "Pierre Claver Koko Banywerha",
-    designation: "Developer",
+    designation: "CEO",
     company: "Magis Fintech Solutions",
     image: "#",
   },
